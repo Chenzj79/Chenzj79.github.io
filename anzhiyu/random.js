@@ -1,1 +1,1 @@
-var posts=["2023/11/02/hello-world/","2023/11/02/test-my-site/","2023/11/03/blog/","2023/11/03/hexo-learning/","2023/11/03/tags/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
+var posts=["2023/11/02/hello-world/","2023/11/02/test-my-site/","2023/11/03/blog/","2023/11/03/hexo-learning/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
